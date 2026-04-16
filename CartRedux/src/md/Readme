@@ -1,0 +1,3 @@
+useSelector : matlab koi cheez agar tere ko chahiye for reading or finding the items which is been kept in cartSlice that can be done using useSelector
+
+dispatch : man le tere ko redux me koi chhez update karni using the actions which you are making in slices then use dispatch there
