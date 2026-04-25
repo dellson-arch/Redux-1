@@ -92,4 +92,4 @@ console.log("data-->",data)
 export default App;
 
 
-//pehle hume map lagana padega pages pe fir products pe do map lagenge is baar 
+//pehle hume map lagana padega pages pe fir products pe do map lagenge is baar
