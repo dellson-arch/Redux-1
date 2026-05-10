@@ -5,7 +5,7 @@ const authSlice = createSlice({
   initialState: {
     user : null, //shayad kyuki abhi mere ko pata hai ki ek hi user aane wala hai
     isAuthenticated : false,//it's the thing jisse hum protected routes ko check karenge
-    isLoading : true //wo beech me fliker aa rahi thi usko resolve karne ke liye
+    isLoading : true //wo beech me fliker aa rahi thi usko resolve karne ke liye by default true kyu ki agar kuch nii aa raha toh loading hi aata rahe
   },
   reducers: {
     addUser: (state , action)=>{
