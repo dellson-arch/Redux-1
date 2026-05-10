@@ -15,7 +15,7 @@ const authSlice = createSlice({
         (state.isLoading = false));
     },
   },
-  extraReducers: (builder) => {
+  extraReducers: (builder) => { //builder me kya hai builder me iske har ek outer functions honge jo tumne banaya jaise "auth/login" , "auth/me" toh wo isme aa jaiyenge
     builder
       .addCase(loginUser.pending, (state) => {
         state.isLoading = true;
